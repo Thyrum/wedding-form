@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+		<title>Bruiloft A&J</title>
+		<meta property="og:title" content="Bruiloft Aron & Janneke" />
+		<meta property="description" content="Uitnodiging voor de bruiloft van Aron & Janneke" />
+		<meta property="og:description" content="Uitnodiging voor de bruiloft van Aron & Janneke" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://bruiloft.dejongbos.nl/kaart" />
+		<meta property="og:image" content="https://bruiloft.dejongbos.nl/assets/front.png" />
+
+		<style type="text/css">
+			body, html {
+				margin: 0;
+				padding: 0;
+				min-height: 100%;
+				background-color: #edeee8;
+				justify-content: center;
+				align-items: center;
+				align-content: center;
+				display: flex;
+			}
+
+			.container {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				gap: 10px;
+				width: 100%;
+				padding: 10px;
+			}
+
+			.image-box {
+				position: relative;
+				width: 100%;
+			}
+
+			.image-box img {
+				max-width: 512px;
+				width: 100%;
+			}
+
+			/* Responsive layout for small screens */
+			@media (max-width: 1024px) {
+				body, html {
+					height: initial;
+				}
+
+				.container {
+					grid-template-columns: 1fr;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="image-box">
+				<img src="assets/front.png" />
+			</div>
+			<div class="image-box">
+				<img src="assets/page-2.png" />
+			</div>
+			<div class="image-box">
+				<img src="assets/page-1.png" />
+			</div>
+			<div class="image-box">
+				<img src="assets/back.png" />
+			</div>
+		</div>
+	</body>
+</html>
