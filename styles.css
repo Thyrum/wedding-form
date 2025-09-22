@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("fonts/BrandonGrotesque-Regular.otf") format("opentype");
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #edeee8;
+  width: fit-content;
+  min-width: 100vw;
+}
+
+.flex-container {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 10px;
+  gap: 10px;
+}
+
+a {
+  font-family: "Brandon Grotesque", sans-serif;
+  color: #859064;
+}
+
+a:active,
+a:visited {
+  color: #2e3f32;
+}
+
+.links {
+  text-align: center;
+}

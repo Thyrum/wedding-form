@@ -13,36 +13,13 @@
 		<meta property="og:url" content="https://bruiloft.dejongbos.nl/kaart" />
 		<meta property="og:image" content="https://bruiloft.dejongbos.nl/assets/front.png" />
 
+		<link rel="stylesheet" href="styles.css" />
+
 		<style type="text/css">
-			@font-face {
-				font-family: 'Brandon Grotesque';
-				src: url('fonts/Brandon-Grotesque-Regular.otf') format('opentype');
-			}
-
-			body, html {
-				margin: 0;
-				padding: 0;
-				min-height: 100%;
-				background-color: #edeee8;
-				justify-content: center;
-				align-items: center;
-				align-content: center;
-				display: flex;
-			}
-
-			.flex-container {
-				justify-content: center;
-				align-items: center;
-				align-content: center;
-				display: flex;
-				flex-direction: column;
-			}
-
-			.container {
+			.card-container {
 				display: grid;
 				grid-template-columns: repeat(2, 1fr);
 				gap: 10px;
-				padding: 10px;
 			}
 
 			.image-box {
@@ -55,27 +32,10 @@
 				max-width: 512px;
 				width: 100%;
 			}
-			.links {
-				margin-bottom: 10px;
-				text-align: center;
-			}
-
-			a {
-				font-family: 'Brandon Grotesque', sans-serif;
-				color: #859064;
-			}
-
-			a:active, a:visited {
-				color: #2e3f32;
-			}
 
 			/* Responsive layout for small screens */
 			@media (max-width: 1024px) {
-				body, html {
-					height: initial;
-				}
-
-				.container {
+				.card-container {
 					grid-template-columns: 1fr;
 				}
 			}
@@ -83,7 +43,7 @@
 	</head>
 	<body>
 		<div class="flex-container">
-			<div class="container">
+			<div class="card-container">
 				<div class="image-box">
 					<img src="assets/front.png" />
 				</div>
@@ -98,7 +58,7 @@
 				</div>
 			</div>
 			<div class="links">
-			<a href="/">Aanmeldformulier</a><br/><a href="https://lijstje.dejongbos.nl">Cadeautips</a>
+			<a href="/">Aanmeldformulier</a><br/><a href="https://lijstje.dejongbos.nl">Cadeautips</a><br/><a href="livestream">Livestream</a>
 			</div>
 		</div>
 	</body>
