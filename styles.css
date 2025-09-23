@@ -11,6 +11,8 @@ html {
   background-color: #edeee8;
   width: fit-content;
   min-width: 100vw;
+  font-family: "Brandon Grotesque", sans-serif;
+  color: #2e3f32;
 }
 
 .flex-container {
@@ -25,7 +27,6 @@ html {
 }
 
 a {
-  font-family: "Brandon Grotesque", sans-serif;
   color: #859064;
 }
 
